@@ -1,0 +1,76 @@
+.weather {
+    width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .weather h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  .weather div {
+    margin-bottom: 10px;
+  }
+  
+  .weather label {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .weather button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .weather button:hover {
+    background-color: #0056b3;
+  }
+  
+  .weather-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .weather-info .icon {
+    font-size: 48px;
+    margin-right: 20px;
+  }
+  
+  .weather-info .details {
+    font-size: 14px;
+  }
+  
+  .weather-info p {
+    margin: 5px 0;
+  }
+  
+  /* Weather Icons */
+  .weather-info .icon i {
+    color: #f39c12; /* Set the default icon color */
+  }
+  
+  .weather-info .icon i.clouds {
+    color: #3498db;
+  }
+  
+  .weather-info .icon i.sun {
+    color: #f1c40f;
+  }
+  
+  .weather-info .icon i.moon {
+    color: #95a5a6;
+  }
+  
+  .weather-info .icon i.rain {
+    color: #2980b9;
+  }
+  
